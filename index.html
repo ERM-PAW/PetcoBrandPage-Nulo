@@ -1,1210 +1,1210 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
     content="Shop Nulo at Petco for dog and cat food made with high-meat protein, low-carb ingredients and a probiotic to support digestion and their immune health.">
-    <title>Nulo | Petco</title>
+  <title>Nulo | Petco</title>
 
-    <link rel="stylesheet" href="font.css">
+  <link rel="stylesheet" href="font.css">
 
-    <style>
-        /* Start Splide CSS */
-        .splide__list {
-          backface-visibility: hidden;
-          display: -ms-flexbox;
-          display: flex;
-          height: 100%;
-          margin: 0 !important;
-          padding: 0 !important;
-        }
-      
-        .splide {
-          position: relative;
-          visibility: hidden;
-        }
-      
-        .splide.is-initialized,
-        .splide.is-rendered {
-          visibility: visible;
-        }
-      
-        .splide__slide {
-          backface-visibility: hidden;
-          box-sizing: border-box;
-          -ms-flex-negative: 0;
-          flex-shrink: 0;
-          list-style-type: none !important;
-          margin: 0;
-          position: relative;
-        }
-      
-        .splide__slide img {
-          vertical-align: bottom;
-        }
-      
-        .splide__sr {
-          clip: rect(0 0 0 0);
-          border: 0;
-          height: 1px;
-          margin: -1px;
-          overflow: hidden;
-          padding: 0;
-          position: absolute;
-          width: 1px;
-        }
-      
-        .splide__track {
-          overflow: hidden;
-          position: relative;
-          z-index: 0;
-        }
-      
-        .splide__arrow {
-          -ms-flex-align: center;
-          -webkit-box-align: center;
-          align-items: center;
-          background: transparent;
-          border: 1px solid #122359;
-          border-radius: 50%;
-          cursor: pointer;
-          display: -ms-flexbox;
-          display: -webkit-box;
-          display: flex;
-          height: 2.2em;
-          -ms-flex-pack: center;
-          -webkit-box-pack: center;
-          justify-content: center;
-          opacity: 1;
-          padding: 0;
-          position: absolute;
-          top: 50%;
-          -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-          width: 2.2em;
-          z-index: 1;
-        }
-      
-        .splide__arrow svg {
-          fill: #122359;
-          height: 1.2em;
-          width: 1.2em;
-        }
-      
-        .splide__arrow:hover:not(:disabled) {
-          opacity: 1;
-        }
-      
-        .splide__arrow:disabled {
-          opacity: 0;
-        }
-      
-        .splide__arrow:focus-visible {
-          outline: 1px solid #122359;
-          outline-offset: 3px;
-        }
-      
-        .splide__arrow--prev {
-          left: 0em;
-        }
-      
-        .splide__arrow--prev svg {
-          transform: scaleX(-1);
-        }
-      
-        .splide__arrow--next {
-          right: 0em;
-        }
-      
-        .splide.is-focus-in .splide__arrow:focus {
-          outline: 1px solid #122359;
-          outline-offset: 3px;
-        }
-      
-        .splide__slide {
-          -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-        }
-      
-        .splide__slide:focus {
-          outline: 0;
-        }
-      
-        @supports (outline-offset: -3px) {
-          .splide__slide:focus-visible {
-            outline: 3px solid #0bf;
-            outline-offset: -3px;
-          }
-        }
-      
-        @media screen and (-ms-high-contrast: none) {
-          .splide__slide:focus-visible {
-            border: 3px solid #0bf;
-          }
-        }
-      
-        @supports (outline-offset: -3px) {
-          .splide.is-focus-in .splide__slide:focus {
-            outline: 3px solid #0bf;
-            outline-offset: -3px;
-          }
-        }
-      
-        /* End Splide CSS */
-      
-        /* Start Custom CSS */
-      
-        .citrusNulo__wrapper {
-          width: 100%;
-          max-width: 1440px;
-          margin: auto;
-        }
-      
-        .citrusNulo__wrapper a {
-          text-decoration: none;
-        }
-      
-        .citrusNulo__wrapper a:hover {
-          text-decoration: none;
-        }
-      
-        .citrusNulo__wrapper h1,
-        .citrusNulo__wrapper h2,
-        .citrusNulo__wrapper h3 {
-          margin: 0;
-          padding: 0;
-          line-height: initial;
-        }
-      
-        .citrusNulo__wrapper p {
-          margin: 0;
-          padding: 0;
-          line-height: initial;
-        }
-      
-        .citrusNulo__wrapper img {
-          width: 100%;
-        }
-      
-        .citrusNulo__sectionGap {
-          padding-top: 40px;
-          padding-bottom: 40px;
-        }
-      
-        .citrusNulo__sectionCTAgap {
-          padding-top: 35px;
-          padding-bottom: 40px;
-          display: flex;
-          justify-content: center;
-        }
-      
-        .bestSellerCTA {
-          display: flex;
-          justify-content: center;
-        }
-      
-        .citrusNulo__sectionTitle {
-          margin: 0;
-          font-family: "PetcoCircular-Bold", arial !important;
-          font-weight: 900;
-          font-size: 25px;
-          text-align: center;
-          color: #000000;
-          padding-bottom: 30px !important;
-        }
-      
-        .citrusNulo__sectionSubhead {
-          text-align: center;
-          font-size: 16px;
-          font-family: "PetcoCircular-Regular", arial !important;
-          color: black;
-          padding-bottom: 10px !important;
-        }
-      
-        .citrusNulo__commonCTA {
-          color: #fff;
-          text-transform: uppercase;
-          background-color: #001952;
-          border: none;
-          border-radius: 5px;
-          font-weight: bold;
-          width: 211px;
-          height: 56px;
-          text-align: center;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          text-decoration: none;
-          font-family: "PetcoCircular-Bold", arial !important;
-          font-weight: 900;
-          margin: 0 auto;
-        }
-      
-        /* Overflow Scrollbar */
-        .citrusNuloDogCat__ProductCarousel-wrapper::-webkit-scrollbar,
-        .citrusNulo__RawFoodContainer::-webkit-scrollbar,
-        .citrusNulo__productCarousel-wrapper::-webkit-scrollbar {
-          display: none;
-        }
-      
-        /* Hide scrollbar for IE, Edge and Firefox */
-        .citrusNulo__productCarousel-wrapper,
-        .citrusNulo__RawFoodContainer {
-          -ms-overflow-style: none;
-          /* IE and Edge */
-          scrollbar-width: none;
-          /* Firefox */
-        }
-      
-        /* Default CSS */
-      
-        /* Hero Single Slide */
-        .citrusNulo__desktop-version {
-          display: block;
-        }
-      
-        .citrusNulo__mobile-version {
-          display: none;
-        }
-      
-        .citrusNulo__carousel {
-          background-color: #081946;
-          margin-bottom: 40px;
-        }
-      
-        .citrusNulo__carousel_inner {
-          object-fit: cover;
-        }
-      
-        .citrusNulo__carousel_item {
-          position: relative;
-          width: 100%;
-          overflow: hidden;
-        }
-      
-        .citrusNulo__carousel_background_image {
-          object-fit: cover;
-          background-color: #081946;
-        }
-      
-        .citrusNulo__carousel_copy {
-          position: absolute;
-          top: 0;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: flex-start;
-          height: 100%;
-          left: 3%;
-        }
-      
-        .citrusNulo__item_image img {
-          width: 114px;
-        }
-      
-        .citrusNulo__item_details h1 {
-          font-size: 35px;
-          line-height: 35px;
-          width: 603px;
-          color: white;
-          padding: 20px 0;
-          font-family: "PetcoCircular-Bold", arial !important;
-        }
-      
-        .citrusNulo__heroCTa_container {
-          display: flex;
-          gap: 20px;
-          padding-bottom: 14px;
-        }
-      
-        .citrusNulo__heroCTa {
-          color: #001952;
-          text-transform: uppercase;
-          background-color: white;
-          border: none;
-          border-radius: 5px;
-          font-weight: bold;
-          width: 211px;
-          height: 56px;
-          text-align: center;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          text-decoration: none;
-          font-family: "PetcoCircular-Bold", arial !important;
-          font-weight: 900;
-        }
-      
-        @media screen and (max-width: 1320px) {
-          .citrusNulo__item_details h1 {
-            font-size: 26px;
-            line-height: 26px;
-            width: 450px;
-          }
-        }
-      
-        @media screen and (max-width: 1180px) {
-          p.citrusNuloDogCat_details {
-            padding: 10px 30px !important;
-          }
-        }
-      
-        @media screen and (max-width: 1300px) {
-          .citrusNuloDogCat__tab-content {
-            width: 90%;
-            margin: auto;
-          }
-      
-          .citrusNulo__item_image img {
-            width: 80px;
-          }
-      
-          .citrusNulo__item_details h1 {
-            font-size: 22px;
-            line-height: 22px;
-            width: 400px;
-            padding: 12px 0;
-          }
-      
-          .citrusNulo__heroCTa {
-            width: 130px;
-            height: 40px;
-          }
-      
-          .citrusNulo__heroCTa_container {
-            padding-bottom: 10px;
-          }
-        }
-      
-        @media screen and (max-width: 921px) {
-          .citrusNulo__item_image img {
-            width: 70px;
-          }
-      
-          .citrusNulo__item_details h1 {
-            font-size: 18px;
-            line-height: 22px;
-            width: 350px;
-            color: white;
-            padding: 10px 0;
-          }
-      
-          .citrusNulo__heroCTa {
-            color: white;
-            text-transform: capitalize;
-            background-color: unset;
-            border: none;
-            border-radius: 0;
-            width: 100%;
-            height: 100%;
-            font-family: "PetcoCircular-Bold", arial !important;
-            font-weight: 900;
-            text-decoration: underline;
-          }
-        }
-      
-        @media screen and (max-width: 810px) {
-          p.citrusNuloDogCat_details {
-            padding: 15px 30px !important;
-            min-height: 5em !important;
-          }
-        }
-      
-        @media screen and (max-width: 768px) {
-          .citrusNulo__heroCTa_container {
-            padding-bottom: 8px;
-          }
-      
-          .citrusNulo__main-tab-content {
-            padding: 0 0 0 30px;
-          }
-      
-          .citrusNuloDogCat__tab-content {
-            width: 95%;
-            margin: auto;
-          }
-      
-          p.citrusNuloDogCat_details {
-            min-height: 4em !important;
-            padding: 10px !important;
-          }
-        }
-      
-        @media screen and (max-width: 767px) {
-          .citrusNulo__desktop-version {
-            display: none;
-          }
-      
-          .citrusNulo__mobile-version {
-            display: block;
-          }
-      
-          .citrusNulo__heroCTa_container {
-            padding-bottom: 0;
-          }
-      
-          .citrusNulo__carousel_background_image img {
-            padding-top: 40%;
-          }
-      
-          .citrusNulo__carousel_copy {
-            height: 45%;
-            align-items: center;
-            width: 100%;
-            left: unset;
-          }
-      
-          .citrusNulo__item_image img {
-            width: 87px;
-          }
-      
-          .citrusNulo__item_details h1 {
-            text-align: center;
-            width: 364px;
-            font-size: 38px;
-            line-height: 42px;
-            padding: 25px 0;
-          }
-      
-          .citrusNulo__heroCTa {
-            color: white;
-            text-transform: capitalize;
-            background-color: unset;
-            border: none;
-            border-radius: 0;
-            width: 100%;
-            height: 100%;
-            font-family: "PetcoCircular-Bold", arial !important;
-            font-weight: 900;
-            text-decoration: underline;
-          }
-        }
-      
-        @media screen and (max-width: 680px) {
-          .citrusNulo__carousel_background_image img {
-            padding-top: 50%;
-          }
-      
-          .citrusNulo__item_image img {
-            width: 87px;
-          }
-      
-          .citrusNulo__item_details h1 {
-            text-align: center;
-            width: 225px;
-            font-size: 22px;
-            line-height: 26px;
-            padding: 30px 0;
-          }
-        }
-      
-        @media screen and (max-width: 425px) {
-          .citrusNulo__carousel_background_image img {
-            padding-top: 60%;
-          }
-      
-          .citrusNulo__item_image img {
-            width: 75px;
-          }
-      
-          .citrusNulo__carousel_copy {
-            height: 50%;
-          }
-      
-          .citrusNulo__item_details h1 {
-            line-height: 29px;
-            text-align: center;
-            width: 245px;
-            font-size: 24px;
-          }
-      
-          p.citrusNuloDogCat_details {
-            min-height: 4em !important;
-          }
-        }
-      
-        @media screen and (max-width: 375px) {
-          .citrusNulo__carousel_background_image img {
-            padding-top: 65%;
-          }
-      
-          .citrusNulo__carousel_copy {
-            height: 53%;
-          }
-        }
-      
-        @media screen and (max-width: 320px) {
-          .citrusNulo__carousel_background_image img {
-            padding-top: 60%;
-          }
-      
-          .citrusNulo__item_details h1 {
-            line-height: 20px;
-            font-size: 17px;
-          }
-      
-          .citrusNulo__sectionTitle {
-            font-size: 22px;
-          }
-        }
-      
-        /* End Hero Single Slide */
-      
-        /* Product Carousel section */
-        /* tab button style */
-        .citrusNulo__productCarousel-wrapper,
-        .citrusNuloDogCat__ProductCarousel-wrapper {
-          width: 100%;
-          max-width: 1273px;
-          margin: auto;
-          overflow-x: auto;
-        }
-      
-        .citrusNuloTabId,
-        .citrusNuloDogCat_ID {
-          width: 100%;
-          overflow-x: auto;
-        }
-      
-        .citrusNulo__tab-area {
-          overflow: hidden;
-        }
-      
-        .citrusNulo__tab-container {
-          max-width: 1273px;
-          width: 100%;
-          margin: 0 auto;
-        }
-      
-        .citrusNulo__Product {
-          display: none;
-        }
-      
-        .citrusNulo__Product img {
-          object-fit: contain;
-        }
-      
-        .citrusNuloDogCat__Product {
-          display: none;
-        }
-      
-        .citrusNuloDogCat__Product img {
-          object-fit: contain;
-        }
-      
-        .citrusNulo-tab-cardImg img {
-          max-width: 100%;
-          max-height: 175px;
-        }
-      
-        .citrusNulo-tab-card>a {
-          text-decoration: none;
-          color: #000;
-        }
-      
-        .citrusNulo-tab-card p {
-          font-family: "PetcoCircular-Regular", arial !important;
-          color: #333333;
-          font-size: 16px;
-          line-height: 22px;
-          text-align: left;
-          margin: 20px 0 10px;
-          text-decoration: none;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          display: -webkit-box;
-          -webkit-line-clamp: 2;
-          line-clamp: 2;
-          -webkit-box-orient: vertical;
-          max-height: 4em;
-          /*standard size is 4em*/
-          font-weight: 500;
-        }
-      
-        .citrusNuloDogCat__Product .citrusNulo-tab-card,
-        .citrusNuloDogCat__Product .citrusNulo-tab-card p {
-          text-align: center;
-        }
-      
-        .citrusNuloDogCat__cardBody {
-          padding-top: 20px;
-        }
-      
-        .citrusNuloDogCat__cardBody h3 {
-          font-family: "PetcoCircular-Bold", arial !important;
-        }
-      
-        .citrusNuloDogCat__cardBody p {
-          margin-top: 10px;
-        }
-      
-        p.citrusNuloDogCat_details {
-          margin: auto;
-          padding: 10px 35px;
-          -webkit-line-clamp: 4;
-          line-clamp: unset;
-          min-height: 4em;
-          max-height: unset;
-        }
-      
-        .citrusNulo__productCTA {
-          border: 0;
-          padding-left: 0;
-          background: none;
-          text-decoration: underline;
-          font-family: "PetcoCircular-Bold", arial !important;
-          color: #001952;
-          font-size: 16px;
-          line-height: 22px;
-          font-weight: 900;
-          cursor: pointer;
-        }
-      
-        .citrusNuloDogCat__ProductCTA {
-          border: 0;
-          background: none;
-          text-decoration: underline;
-          font-family: "PetcoCircular-Bold", arial !important;
-          color: #001952;
-          font-size: 16px;
-          line-height: 22px;
-          font-weight: 900;
-          cursor: pointer;
-        }
-      
-        .citrusNulo__Products {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-          -webkit-box-pack: center;
-          -ms-flex-pack: center;
-          justify-content: center;
-          overflow: hidden;
-        }
-      
-        .citrusNuloDogCat__Products {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-          -webkit-box-pack: center;
-          -ms-flex-pack: center;
-          justify-content: center;
-          overflow: hidden;
-          max-width: 1273px;
-          width: 100%;
-          margin: 0 auto;
-        }
-      
-        .citrusNulo-tab-cardImg {
-          padding: 0 10px;
-          margin: auto;
-        }
-      
-        .citrusNulo__tab_item,
-        .citrusNuloDogCat__tab_item {
-          text-transform: uppercase;
-          padding: 12px 20px;
-          margin: 0px 10px;
-          font-size: 14px;
-          text-decoration: none;
-          background-color: transparent;
-          border: none;
-          border-bottom: 10px solid transparent;
-          cursor: pointer;
-          color: #9b9b9b;
-          font-family: "PetcoCircular-Bold", arial !important;
-          font-weight: 700;
-          line-height: 1.3;
-          text-align: center;
-          outline: none;
-        }
-      
-        .citrusNulo__tab_item.citrusNulo__active_tab,
-        .citrusNuloDogCat__tab_item.citrusNuloDogCat__active_tab {
-          color: #001952;
-          border-bottom: 10px solid #001952;
-          border-radius: 0;
-        }
-      
-        .citrusNuloTabId,
-        .citrusNuloDogCat_ID {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-pack: center;
-          -ms-flex-pack: center;
-          justify-content: center;
-          -webkit-box-align: center;
-          -ms-flex-align: center;
-          align-items: center;
-          margin-bottom: 30px;
-          border-bottom: 1px solid #021b4e;
-        }
-      
-        .citrusTabShow {
-          display: block;
-        }
-      
-        #citrusNulo__boringToBon {
-          padding-bottom: 10px !important;
-        }
-      
-        @media all and (max-width: 1301px) {
-          .citrusNulo__tab-container {
-            width: 90%;
-          }
-        }
-      
-        @media screen and (min-width: 922px) and (max-width: 1120px) {
-          .citrusNulo__commonCTA {
-            width: 170px;
-            height: 40px;
-          }
-        }
-      
-        @media screen and (min-width: 769px) and (max-width: 1024px) {
-          .citrusNulo__commonCTA {
-            width: 150px;
-            height: 40px;
-          }
-      
-          .citrusNulo__productCarousel-wrapper {
-            width: max-content;
-          }
-        }
-      
-        @media screen and (max-width: 768px) {
-      
-          /* product section */
-          .citrusNuloTabId {
-            width: max-content;
-            margin: 0 auto 20px;
-          }
-      
-          .citrusNulo__tab_item {
-            padding: 12px 6px;
-            margin-left: 0;
-            margin-right: 20px;
-          }
-      
-          .citrusNulo__tab-container {
-            width: 100%;
-          }
-      
-          /* .citrusNulo__tab_item, .citrusNuloDogCat__tab_item {
+  <style>
+    /* Start Splide CSS */
+    .splide__list {
+      backface-visibility: hidden;
+      display: -ms-flexbox;
+      display: flex;
+      height: 100%;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    .splide {
+      position: relative;
+      visibility: hidden;
+    }
+
+    .splide.is-initialized,
+    .splide.is-rendered {
+      visibility: visible;
+    }
+
+    .splide__slide {
+      backface-visibility: hidden;
+      box-sizing: border-box;
+      -ms-flex-negative: 0;
+      flex-shrink: 0;
+      list-style-type: none !important;
+      margin: 0;
+      position: relative;
+    }
+
+    .splide__slide img {
+      vertical-align: bottom;
+    }
+
+    .splide__sr {
+      clip: rect(0 0 0 0);
+      border: 0;
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+
+    .splide__track {
+      overflow: hidden;
+      position: relative;
+      z-index: 0;
+    }
+
+    .splide__arrow {
+      -ms-flex-align: center;
+      -webkit-box-align: center;
+      align-items: center;
+      background: transparent;
+      border: 1px solid #122359;
+      border-radius: 50%;
+      cursor: pointer;
+      display: -ms-flexbox;
+      display: -webkit-box;
+      display: flex;
+      height: 2.2em;
+      -ms-flex-pack: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+      opacity: 1;
+      padding: 0;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      width: 2.2em;
+      z-index: 1;
+    }
+
+    .splide__arrow svg {
+      fill: #122359;
+      height: 1.2em;
+      width: 1.2em;
+    }
+
+    .splide__arrow:hover:not(:disabled) {
+      opacity: 1;
+    }
+
+    .splide__arrow:disabled {
+      opacity: 0;
+    }
+
+    .splide__arrow:focus-visible {
+      outline: 1px solid #122359;
+      outline-offset: 3px;
+    }
+
+    .splide__arrow--prev {
+      left: 0em;
+    }
+
+    .splide__arrow--prev svg {
+      transform: scaleX(-1);
+    }
+
+    .splide__arrow--next {
+      right: 0em;
+    }
+
+    .splide.is-focus-in .splide__arrow:focus {
+      outline: 1px solid #122359;
+      outline-offset: 3px;
+    }
+
+    .splide__slide {
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    .splide__slide:focus {
+      outline: 0;
+    }
+
+    @supports (outline-offset: -3px) {
+      .splide__slide:focus-visible {
+        outline: 3px solid #0bf;
+        outline-offset: -3px;
+      }
+    }
+
+    @media screen and (-ms-high-contrast: none) {
+      .splide__slide:focus-visible {
+        border: 3px solid #0bf;
+      }
+    }
+
+    @supports (outline-offset: -3px) {
+      .splide.is-focus-in .splide__slide:focus {
+        outline: 3px solid #0bf;
+        outline-offset: -3px;
+      }
+    }
+
+    /* End Splide CSS */
+
+    /* Start Custom CSS */
+
+    .citrusNulo__wrapper {
+      width: 100%;
+      max-width: 1440px;
+      margin: auto;
+    }
+
+    .citrusNulo__wrapper a {
+      text-decoration: none;
+    }
+
+    .citrusNulo__wrapper a:hover {
+      text-decoration: none;
+    }
+
+    .citrusNulo__wrapper h1,
+    .citrusNulo__wrapper h2,
+    .citrusNulo__wrapper h3 {
+      margin: 0;
+      padding: 0;
+      line-height: initial;
+    }
+
+    .citrusNulo__wrapper p {
+      margin: 0;
+      padding: 0;
+      line-height: initial;
+    }
+
+    .citrusNulo__wrapper img {
+      width: 100%;
+    }
+
+    .citrusNulo__sectionGap {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+    .citrusNulo__sectionCTAgap {
+      padding-top: 35px;
+      padding-bottom: 40px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .bestSellerCTA {
+      display: flex;
+      justify-content: center;
+    }
+
+    .citrusNulo__sectionTitle {
+      margin: 0;
+      font-family: "PetcoCircular-Bold", arial !important;
+      font-weight: 900;
+      font-size: 25px;
+      text-align: center;
+      color: #000000;
+      padding-bottom: 30px !important;
+    }
+
+    .citrusNulo__sectionSubhead {
+      text-align: center;
+      font-size: 16px;
+      font-family: "PetcoCircular-Regular", arial !important;
+      color: black;
+      padding-bottom: 10px !important;
+    }
+
+    .citrusNulo__commonCTA {
+      color: #fff;
+      text-transform: uppercase;
+      background-color: #001952;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      width: 211px;
+      height: 56px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-family: "PetcoCircular-Bold", arial !important;
+      font-weight: 900;
+      margin: 0 auto;
+    }
+
+    /* Overflow Scrollbar */
+    .citrusNuloDogCat__ProductCarousel-wrapper::-webkit-scrollbar,
+    .citrusNulo__RawFoodContainer::-webkit-scrollbar,
+    .citrusNulo__productCarousel-wrapper::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .citrusNulo__productCarousel-wrapper,
+    .citrusNulo__RawFoodContainer {
+      -ms-overflow-style: none;
+      /* IE and Edge */
+      scrollbar-width: none;
+      /* Firefox */
+    }
+
+    /* Default CSS */
+
+    /* Hero Single Slide */
+    .citrusNulo__desktop-version {
+      display: block;
+    }
+
+    .citrusNulo__mobile-version {
+      display: none;
+    }
+
+    .citrusNulo__carousel {
+      background-color: #081946;
+      margin-bottom: 40px;
+    }
+
+    .citrusNulo__carousel_inner {
+      object-fit: cover;
+    }
+
+    .citrusNulo__carousel_item {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .citrusNulo__carousel_background_image {
+      object-fit: cover;
+      background-color: #081946;
+    }
+
+    .citrusNulo__carousel_copy {
+      position: absolute;
+      top: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      height: 100%;
+      left: 3%;
+    }
+
+    .citrusNulo__item_image img {
+      width: 114px;
+    }
+
+    .citrusNulo__item_details h1 {
+      font-size: 35px;
+      line-height: 35px;
+      width: 603px;
+      color: white;
+      padding: 20px 0;
+      font-family: "PetcoCircular-Bold", arial !important;
+    }
+
+    .citrusNulo__heroCTa_container {
+      display: flex;
+      gap: 20px;
+      padding-bottom: 14px;
+    }
+
+    .citrusNulo__heroCTa {
+      color: #001952;
+      text-transform: uppercase;
+      background-color: white;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      width: 211px;
+      height: 56px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-family: "PetcoCircular-Bold", arial !important;
+      font-weight: 900;
+    }
+
+    @media screen and (max-width: 1320px) {
+      .citrusNulo__item_details h1 {
+        font-size: 26px;
+        line-height: 26px;
+        width: 450px;
+      }
+    }
+
+    @media screen and (max-width: 1180px) {
+      p.citrusNuloDogCat_details {
+        padding: 10px 30px !important;
+      }
+    }
+
+    @media screen and (max-width: 1300px) {
+      .citrusNuloDogCat__tab-content {
+        width: 90%;
+        margin: auto;
+      }
+
+      .citrusNulo__item_image img {
+        width: 80px;
+      }
+
+      .citrusNulo__item_details h1 {
+        font-size: 22px;
+        line-height: 22px;
+        width: 400px;
+        padding: 12px 0;
+      }
+
+      .citrusNulo__heroCTa {
+        width: 130px;
+        height: 40px;
+      }
+
+      .citrusNulo__heroCTa_container {
+        padding-bottom: 10px;
+      }
+    }
+
+    @media screen and (max-width: 921px) {
+      .citrusNulo__item_image img {
+        width: 70px;
+      }
+
+      .citrusNulo__item_details h1 {
+        font-size: 18px;
+        line-height: 22px;
+        width: 350px;
+        color: white;
+        padding: 10px 0;
+      }
+
+      .citrusNulo__heroCTa {
+        color: white;
+        text-transform: capitalize;
+        background-color: unset;
+        border: none;
+        border-radius: 0;
+        width: 100%;
+        height: 100%;
+        font-family: "PetcoCircular-Bold", arial !important;
+        font-weight: 900;
+        text-decoration: underline;
+      }
+    }
+
+    @media screen and (max-width: 810px) {
+      p.citrusNuloDogCat_details {
+        padding: 15px 30px !important;
+        min-height: 5em !important;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .citrusNulo__heroCTa_container {
+        padding-bottom: 8px;
+      }
+
+      .citrusNulo__main-tab-content {
+        padding: 0 0 0 30px;
+      }
+
+      .citrusNuloDogCat__tab-content {
+        width: 95%;
+        margin: auto;
+      }
+
+      p.citrusNuloDogCat_details {
+        min-height: 4em !important;
+        padding: 10px !important;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      .citrusNulo__desktop-version {
+        display: none;
+      }
+
+      .citrusNulo__mobile-version {
+        display: block;
+      }
+
+      .citrusNulo__heroCTa_container {
+        padding-bottom: 0;
+      }
+
+      .citrusNulo__carousel_background_image img {
+        padding-top: 40%;
+      }
+
+      .citrusNulo__carousel_copy {
+        height: 45%;
+        align-items: center;
+        width: 100%;
+        left: unset;
+      }
+
+      .citrusNulo__item_image img {
+        width: 87px;
+      }
+
+      .citrusNulo__item_details h1 {
+        text-align: center;
+        width: 364px;
+        font-size: 38px;
+        line-height: 42px;
+        padding: 25px 0;
+      }
+
+      .citrusNulo__heroCTa {
+        color: white;
+        text-transform: capitalize;
+        background-color: unset;
+        border: none;
+        border-radius: 0;
+        width: 100%;
+        height: 100%;
+        font-family: "PetcoCircular-Bold", arial !important;
+        font-weight: 900;
+        text-decoration: underline;
+      }
+    }
+
+    @media screen and (max-width: 680px) {
+      .citrusNulo__carousel_background_image img {
+        padding-top: 50%;
+      }
+
+      .citrusNulo__item_image img {
+        width: 87px;
+      }
+
+      .citrusNulo__item_details h1 {
+        text-align: center;
+        width: 225px;
+        font-size: 22px;
+        line-height: 26px;
+        padding: 30px 0;
+      }
+    }
+
+    @media screen and (max-width: 425px) {
+      .citrusNulo__carousel_background_image img {
+        padding-top: 60%;
+      }
+
+      .citrusNulo__item_image img {
+        width: 75px;
+      }
+
+      .citrusNulo__carousel_copy {
+        height: 50%;
+      }
+
+      .citrusNulo__item_details h1 {
+        line-height: 29px;
+        text-align: center;
+        width: 245px;
+        font-size: 24px;
+      }
+
+      p.citrusNuloDogCat_details {
+        min-height: 4em !important;
+      }
+    }
+
+    @media screen and (max-width: 375px) {
+      .citrusNulo__carousel_background_image img {
+        padding-top: 65%;
+      }
+
+      .citrusNulo__carousel_copy {
+        height: 53%;
+      }
+    }
+
+    @media screen and (max-width: 320px) {
+      .citrusNulo__carousel_background_image img {
+        padding-top: 60%;
+      }
+
+      .citrusNulo__item_details h1 {
+        line-height: 20px;
+        font-size: 17px;
+      }
+
+      .citrusNulo__sectionTitle {
+        font-size: 22px;
+      }
+    }
+
+    /* End Hero Single Slide */
+
+    /* Product Carousel section */
+    /* tab button style */
+    .citrusNulo__productCarousel-wrapper,
+    .citrusNuloDogCat__ProductCarousel-wrapper {
+      width: 100%;
+      max-width: 1273px;
+      margin: auto;
+      overflow-x: auto;
+    }
+
+    .citrusNuloTabId,
+    .citrusNuloDogCat_ID {
+      width: 100%;
+      overflow-x: auto;
+    }
+
+    .citrusNulo__tab-area {
+      overflow: hidden;
+    }
+
+    .citrusNulo__tab-container {
+      max-width: 1273px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .citrusNulo__Product {
+      display: none;
+    }
+
+    .citrusNulo__Product img {
+      object-fit: contain;
+    }
+
+    .citrusNuloDogCat__Product {
+      display: none;
+    }
+
+    .citrusNuloDogCat__Product img {
+      object-fit: contain;
+    }
+
+    .citrusNulo-tab-cardImg img {
+      max-width: 100%;
+      max-height: 175px;
+    }
+
+    .citrusNulo-tab-card>a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    .citrusNulo-tab-card p {
+      font-family: "PetcoCircular-Regular", arial !important;
+      color: #333333;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: left;
+      margin: 20px 0 10px;
+      text-decoration: none;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      line-clamp: 2;
+      -webkit-box-orient: vertical;
+      max-height: 4em;
+      /*standard size is 4em*/
+      font-weight: 500;
+    }
+
+    .citrusNuloDogCat__Product .citrusNulo-tab-card,
+    .citrusNuloDogCat__Product .citrusNulo-tab-card p {
+      text-align: center;
+    }
+
+    .citrusNuloDogCat__cardBody {
+      padding-top: 20px;
+    }
+
+    .citrusNuloDogCat__cardBody h3 {
+      font-family: "PetcoCircular-Bold", arial !important;
+    }
+
+    .citrusNuloDogCat__cardBody p {
+      margin-top: 10px;
+    }
+
+    p.citrusNuloDogCat_details {
+      margin: auto;
+      padding: 10px 35px;
+      -webkit-line-clamp: 4;
+      line-clamp: unset;
+      min-height: 4em;
+      max-height: unset;
+    }
+
+    .citrusNulo__productCTA {
+      border: 0;
+      padding-left: 0;
+      background: none;
+      text-decoration: underline;
+      font-family: "PetcoCircular-Bold", arial !important;
+      color: #001952;
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 900;
+      cursor: pointer;
+    }
+
+    .citrusNuloDogCat__ProductCTA {
+      border: 0;
+      background: none;
+      text-decoration: underline;
+      font-family: "PetcoCircular-Bold", arial !important;
+      color: #001952;
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 900;
+      cursor: pointer;
+    }
+
+    .citrusNulo__Products {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .citrusNuloDogCat__Products {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      overflow: hidden;
+      max-width: 1273px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .citrusNulo-tab-cardImg {
+      padding: 0 10px;
+      margin: auto;
+    }
+
+    .citrusNulo__tab_item,
+    .citrusNuloDogCat__tab_item {
+      text-transform: uppercase;
+      padding: 12px 20px;
+      margin: 0px 10px;
+      font-size: 14px;
+      text-decoration: none;
+      background-color: transparent;
+      border: none;
+      border-bottom: 10px solid transparent;
+      cursor: pointer;
+      color: #9b9b9b;
+      font-family: "PetcoCircular-Bold", arial !important;
+      font-weight: 700;
+      line-height: 1.3;
+      text-align: center;
+      outline: none;
+    }
+
+    .citrusNulo__tab_item.citrusNulo__active_tab,
+    .citrusNuloDogCat__tab_item.citrusNuloDogCat__active_tab {
+      color: #001952;
+      border-bottom: 10px solid #001952;
+      border-radius: 0;
+    }
+
+    .citrusNuloTabId,
+    .citrusNuloDogCat_ID {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-bottom: 30px;
+      border-bottom: 1px solid #021b4e;
+    }
+
+    .citrusTabShow {
+      display: block;
+    }
+
+    #citrusNulo__boringToBon {
+      padding-bottom: 10px !important;
+    }
+
+    @media all and (max-width: 1301px) {
+      .citrusNulo__tab-container {
+        width: 90%;
+      }
+    }
+
+    @media screen and (min-width: 922px) and (max-width: 1120px) {
+      .citrusNulo__commonCTA {
+        width: 170px;
+        height: 40px;
+      }
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+      .citrusNulo__commonCTA {
+        width: 150px;
+        height: 40px;
+      }
+
+      .citrusNulo__productCarousel-wrapper {
+        width: max-content;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+
+      /* product section */
+      .citrusNuloTabId {
+        width: max-content;
+        margin: 0 auto 20px;
+      }
+
+      .citrusNulo__tab_item {
+        padding: 12px 6px;
+        margin-left: 0;
+        margin-right: 20px;
+      }
+
+      .citrusNulo__tab-container {
+        width: 100%;
+      }
+
+      /* .citrusNulo__tab_item, .citrusNuloDogCat__tab_item {
           margin: 0;
       } */
-      
-          #citrusNulo__boringToBon {
-            padding-bottom: 10px !important;
-          }
-      
-          .citrusNulo__commonCTA {
-            font-size: 16px;
-            color: #001952;
-            text-transform: capitalize;
-            background: none;
-            padding: 0;
-            text-decoration: underline !important;
-            font-family: "PetcoCircular-Bold", arial !important;
-            font-weight: 900;
-            margin: 0 auto;
-            width: fit-content;
-            height: fit-content;
-          }
-      
-          .splide__arrow {
-            display: none;
-          }
-        }
-      
-        @media all and (max-width: 575px) {
-          .citrusNulo__Product {
-            max-width: 195px;
-          }
-        }
-      
-        @media all and (max-width: 375px) {
-          #citrusNulo__boringToBon {
-            width: 214px;
-            margin: auto;
-            padding-bottom: 10px !important;
-          }
-      
-          #citrusNulo__mouthwatering {
-            width: 332px;
-            margin: auto;
-          }
-        }
-      
-        /* custom css */
-      
-        /* Food Item section */
-        #nulo_different {
-          padding-top: 0;
-          max-width: 1440px;
-          margin: auto;
-        }
-      
-        #citrusNulo__RawFood {
-          text-align: center;
-          background-color: #f5f5f5;
-          padding-top: 40px;
-        }
-      
-        .citrusNulo__RawFoodContainer {
-          width: 1384px;
-          max-width: 100%;
-          margin: auto;
-          overflow: auto;
-          text-align: center;
-        }
-      
-        .citrusNulo__RawFoodContainer a:hover {
-          text-decoration: none;
-        }
-      
-        .citrusNulo__category {
-          width: 1384px;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-evenly;
-          column-gap: 20px;
-          text-align: center;
-        }
-      
-        .citrusNulo__card {
-          width: 254px;
-          text-align: center;
-        }
-      
-        .citrusNulo__card img {
-          width: 104px;
-          max-width: 100%;
-          text-align: center;
-        }
-      
-        .citrusNulo__card-title h3 {
-          margin: 20px 0;
-          font-family: "PetcoCircular-Bold", arial !important;
-          font-weight: bold;
-          font-size: 18px;
-          line-height: 22px;
-          color: #000000;
-        }
-      
-        .citrusNulo__card-title p {
-          margin: auto;
-          font-family: "PetcoCircular-Regular", arial !important;
-          font-size: 16px;
-          line-height: 19px;
-          text-align: center;
-          color: #000;
-          font-weight: 500;
-        }
-      
-        p.citrusNulo__card-individual_width {
-          width: 223px;
-          margin: auto;
-        }
-      
-        /* Lifestyle Image Section */
-        .citrusNulo__lifestyle_image_section {
-          padding: 40px 0;
-          max-width: 1440px;
-          margin: auto;
-        }
-      
-        .citrusNulo__lifestyle_image_row {
-          display: grid;
-          grid-template-columns: 2fr 3fr;
-          background-color: #f5f5f5;
-        }
-      
-        .order-1 {
-          order: 1;
-        }
-      
-        .order-2 {
-          order: 2;
-        }
-      
-        .citrusNulo_Lifestyle_container {
-          position: relative;
-        }
-      
-        .citrusNulo_Lifestyle_img img {
-          max-width: 100%;
-          margin-left: auto;
-          margin-right: auto;
-        }
-      
-        .citrusNulo_lifestyle_image_text {
-          text-align: center;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          width: 50%;
-          margin: auto;
-        }
-      
-        .citrusNulo_lifestyle_image_text h3 {
-          margin: 0;
-          font-size: 25px;
-          line-height: 32px;
-          font-family: "PetcoCircular-Bold", arial !important;
-        }
-      
-        .citrusNulo_lifestyle_image_text p {
-          font-size: 16px;
-          line-height: 22px;
-          margin-top: 20px;
-          margin-bottom: 45px;
-          font-family: "PetcoCircular-Regular", arial !important;
-          color: #000;
-        }
-      
-        /*------------------*/
-        /* Responsive CSS */
-      
-        @media all and (max-width: 320px) {
-      
-          /* lifestyle_image Grade Section */
-          #citusHonest__lifestyle_imageDesc {
-            width: 250px;
-          }
-        }
-      
-        @media screen and (max-width: 768px) {
-      
-          /* Common Style */
-          .citrusNulo__commonCTA {
-            color: #001952;
-            text-transform: capitalize;
-            background-color: unset;
-            border: none;
-            border-radius: 0;
-            width: 100%;
-            height: 100%;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: underline;
-            font-family: "PetcoCircular-Bold", arial !important;
-            font-weight: 900;
-            margin: 0 auto;
-          }
-      
-          /* Food Item section */
-          .citrusNulo__category {
-            width: 1200px;
-          }
-      
-          .citrusNulo__lifestyle_image_container {
-            background-color: #fff;
-            height: 100%;
-          }
-      
-          .citrusNulo__lifestyle_image_row {
-            grid-template-rows: 1fr;
-            grid-template-columns: unset;
-          }
-      
-          .order-1 {
-            order: 2;
-          }
-      
-          .order-2 {
-            order: 1;
-          }
-      
-          .citrusNulo_lifestyle_image_text {
-            width: 100%;
-            min-height: 240px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-          }
-      
-          .citrusNulo_lifestyle_image_text p {
-            margin-bottom: 30px;
-          }
-      
-          .citrusNulo_Lifestyle_img {
-            text-align: center;
-            width: 100%;
-          }
-        }
-      
-        @media screen and (min-width: 769px) and (max-width: 1024px) {
-      
-          /* lifestyle_image Grade Section */
-          .citrusNulo_lifestyle_image_text {
-            width: 90%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin: auto;
-          }
-      
-          .citrusNulo_Lifestyle_img {
-            text-align: center;
-            width: 100%;
-          }
-      
-          .citrusNulo_lifestyle_image_text p {
-            margin-top: 10px;
-            margin-bottom: 22px;
-            padding: 0 20px;
-          }
-        }
-      
-        @media screen and (max-width: 425px) {
-      
-          /* Food Item section */
-          .citrusNulo__category {
-            width: 1140px;
-          }
-      
-          /* lifestyle_image Grade Section */
-          .citrusNulo__lifestyle_image_row {
-            padding: 0;
-          }
-      
-          .citrusNulo_lifestyle_image_text p {
-            width: 264px;
-          }
-        }
-      
-        @media screen and (max-width: 375px) {
-      
-          /* Food Item section */
-          .citrusNulo__category {
-            width: 1080px !important;
-            column-gap: 0;
-          }
-      
-          /* Lifestyle Image Section */
-          .citrusNulo_lifestyle_image_text {
-            min-height: 214px;
-          }
-      
-          .citrusNulo_lifestyle_image_text h3 {
-            width: 282px;
-          }
-      
-          .citrusNulo_lifestyle_image_text p {
-            margin-bottom: 25px;
-          }
-        }
-      
-        /* End Custom CSS */
-      
-        /* Video Popup */
-        .citrusNulo-yt-video {
-          position: relative;
-        }
-      
-        .citrusNulo-yt-video button {
-          padding: 0;
-          margin: 0;
-          border: none;
-          background: unset;
-          cursor: pointer;
-        }
-      
-        .citrusNulo-yt-video button,
-        .citrusNulo-yt-video button:focus-visible {
-          background: none;
-          border: none;
-          outline: none;
-          cursor: pointer;
-          padding: 0 !important;
-        }
-      
-        .show-video {
-          display: none;
-          position: absolute;
-          top: 0;
-          left: 0;
-          background: #fff;
-          padding-left: 0;
-          border-radius: 0px;
-          width: 100%;
-          height: 100%;
-        }
-      
-        .show-video iframe {
-          min-height: 170px;
-        }
-      
-        .citrusNulo__lifestyle_container_image {
-          position: relative;
-        }
-      
-        .citrusNulo__lifestyle_container_image iframe {
-          width: 313px;
-          min-width: 100%;
-          margin: auto;
-          border-radius: 0px;
-          border: none;
-          position: absolute;
-          top: 0;
-          left: 0;
-        }
-      
-        .citrusNulo-yt-video img {
-          pointer-events: none;
-        }
-      
-        @media all and (max-width: 767px) {
-      
-          .citrusNulo-yt-video button,
-          .citrusNulo-yt-video button:focus-visible {
-            background: none;
-            border: none;
-            outline: none;
-            cursor: pointer;
-            padding: 0;
-          }
-      
-          .show-video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            background: #fff;
-            width: 100%;
-            padding: 0;
-          }
-      
-          .show-video iframe {
-            min-height: 290px;
-          }
-        }
-      </style>
+
+      #citrusNulo__boringToBon {
+        padding-bottom: 10px !important;
+      }
+
+      .citrusNulo__commonCTA {
+        font-size: 16px;
+        color: #001952;
+        text-transform: capitalize;
+        background: none;
+        padding: 0;
+        text-decoration: underline !important;
+        font-family: "PetcoCircular-Bold", arial !important;
+        font-weight: 900;
+        margin: 0 auto;
+        width: fit-content;
+        height: fit-content;
+      }
+
+      .splide__arrow {
+        display: none;
+      }
+    }
+
+    @media all and (max-width: 575px) {
+      .citrusNulo__Product {
+        max-width: 195px;
+      }
+    }
+
+    @media all and (max-width: 375px) {
+      #citrusNulo__boringToBon {
+        width: 214px;
+        margin: auto;
+        padding-bottom: 10px !important;
+      }
+
+      #citrusNulo__mouthwatering {
+        width: 332px;
+        margin: auto;
+      }
+    }
+
+    /* custom css */
+
+    /* Food Item section */
+    #nulo_different {
+      padding-top: 0;
+      max-width: 1440px;
+      margin: auto;
+    }
+
+    #citrusNulo__RawFood {
+      text-align: center;
+      background-color: #f5f5f5;
+      padding-top: 40px;
+    }
+
+    .citrusNulo__RawFoodContainer {
+      width: 1384px;
+      max-width: 100%;
+      margin: auto;
+      overflow: auto;
+      text-align: center;
+    }
+
+    .citrusNulo__RawFoodContainer a:hover {
+      text-decoration: none;
+    }
+
+    .citrusNulo__category {
+      width: 1384px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      column-gap: 20px;
+      text-align: center;
+    }
+
+    .citrusNulo__card {
+      width: 254px;
+      text-align: center;
+    }
+
+    .citrusNulo__card img {
+      width: 104px;
+      max-width: 100%;
+      text-align: center;
+    }
+
+    .citrusNulo__card-title h3 {
+      margin: 20px 0;
+      font-family: "PetcoCircular-Bold", arial !important;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+      color: #000000;
+    }
+
+    .citrusNulo__card-title p {
+      margin: auto;
+      font-family: "PetcoCircular-Regular", arial !important;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      color: #000;
+      font-weight: 500;
+    }
+
+    p.citrusNulo__card-individual_width {
+      width: 223px;
+      margin: auto;
+    }
+
+    /* Lifestyle Image Section */
+    .citrusNulo__lifestyle_image_section {
+      padding: 40px 0;
+      max-width: 1440px;
+      margin: auto;
+    }
+
+    .citrusNulo__lifestyle_image_row {
+      display: grid;
+      grid-template-columns: 2fr 3fr;
+      background-color: #f5f5f5;
+    }
+
+    .order-1 {
+      order: 1;
+    }
+
+    .order-2 {
+      order: 2;
+    }
+
+    .citrusNulo_Lifestyle_container {
+      position: relative;
+    }
+
+    .citrusNulo_Lifestyle_img img {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .citrusNulo_lifestyle_image_text {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 50%;
+      margin: auto;
+    }
+
+    .citrusNulo_lifestyle_image_text h3 {
+      margin: 0;
+      font-size: 25px;
+      line-height: 32px;
+      font-family: "PetcoCircular-Bold", arial !important;
+    }
+
+    .citrusNulo_lifestyle_image_text p {
+      font-size: 16px;
+      line-height: 22px;
+      margin-top: 20px;
+      margin-bottom: 45px;
+      font-family: "PetcoCircular-Regular", arial !important;
+      color: #000;
+    }
+
+    /*------------------*/
+    /* Responsive CSS */
+
+    @media all and (max-width: 320px) {
+
+      /* lifestyle_image Grade Section */
+      #citusHonest__lifestyle_imageDesc {
+        width: 250px;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+
+      /* Common Style */
+      .citrusNulo__commonCTA {
+        color: #001952;
+        text-transform: capitalize;
+        background-color: unset;
+        border: none;
+        border-radius: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: underline;
+        font-family: "PetcoCircular-Bold", arial !important;
+        font-weight: 900;
+        margin: 0 auto;
+      }
+
+      /* Food Item section */
+      .citrusNulo__category {
+        width: 1200px;
+      }
+
+      .citrusNulo__lifestyle_image_container {
+        background-color: #fff;
+        height: 100%;
+      }
+
+      .citrusNulo__lifestyle_image_row {
+        grid-template-rows: 1fr;
+        grid-template-columns: unset;
+      }
+
+      .order-1 {
+        order: 2;
+      }
+
+      .order-2 {
+        order: 1;
+      }
+
+      .citrusNulo_lifestyle_image_text {
+        width: 100%;
+        min-height: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .citrusNulo_lifestyle_image_text p {
+        margin-bottom: 30px;
+      }
+
+      .citrusNulo_Lifestyle_img {
+        text-align: center;
+        width: 100%;
+      }
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+
+      /* lifestyle_image Grade Section */
+      .citrusNulo_lifestyle_image_text {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+      }
+
+      .citrusNulo_Lifestyle_img {
+        text-align: center;
+        width: 100%;
+      }
+
+      .citrusNulo_lifestyle_image_text p {
+        margin-top: 10px;
+        margin-bottom: 22px;
+        padding: 0 20px;
+      }
+    }
+
+    @media screen and (max-width: 425px) {
+
+      /* Food Item section */
+      .citrusNulo__category {
+        width: 1140px;
+      }
+
+      /* lifestyle_image Grade Section */
+      .citrusNulo__lifestyle_image_row {
+        padding: 0;
+      }
+
+      .citrusNulo_lifestyle_image_text p {
+        width: 264px;
+      }
+    }
+
+    @media screen and (max-width: 375px) {
+
+      /* Food Item section */
+      .citrusNulo__category {
+        width: 1080px !important;
+        column-gap: 0;
+      }
+
+      /* Lifestyle Image Section */
+      .citrusNulo_lifestyle_image_text {
+        min-height: 214px;
+      }
+
+      .citrusNulo_lifestyle_image_text h3 {
+        width: 282px;
+      }
+
+      .citrusNulo_lifestyle_image_text p {
+        margin-bottom: 25px;
+      }
+    }
+
+    /* End Custom CSS */
+
+    /* Video Popup */
+    .citrusNulo-yt-video {
+      position: relative;
+    }
+
+    .citrusNulo-yt-video button {
+      padding: 0;
+      margin: 0;
+      border: none;
+      background: unset;
+      cursor: pointer;
+    }
+
+    .citrusNulo-yt-video button,
+    .citrusNulo-yt-video button:focus-visible {
+      background: none;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 0 !important;
+    }
+
+    .show-video {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: #fff;
+      padding-left: 0;
+      border-radius: 0px;
+      width: 100%;
+      height: 100%;
+    }
+
+    .show-video iframe {
+      min-height: 170px;
+    }
+
+    .citrusNulo__lifestyle_container_image {
+      position: relative;
+    }
+
+    .citrusNulo__lifestyle_container_image iframe {
+      width: 313px;
+      min-width: 100%;
+      margin: auto;
+      border-radius: 0px;
+      border: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .citrusNulo-yt-video img {
+      pointer-events: none;
+    }
+
+    @media all and (max-width: 767px) {
+
+      .citrusNulo-yt-video button,
+      .citrusNulo-yt-video button:focus-visible {
+        background: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 0;
+      }
+
+      .show-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #fff;
+        width: 100%;
+        padding: 0;
+      }
+
+      .show-video iframe {
+        min-height: 290px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-    <!-- Landing Page Wrapper -->
-<main class="citrusNulo__wrapper">
+  <!-- Landing Page Wrapper -->
+  <main class="citrusNulo__wrapper">
     <!-- Hero Single Slide -->
     <section class="citrusNulo__carousel">
       <div class="citrusNulo__carousel_inner">
         <div class="citrusNulo__carousel_item">
           <div class="citrusNulo__carousel_background_image">
             <!-- Background Image Desktop -->
-              <img class="citrusNulo__desktop-version"
-              src="img/revised-img/Nulo_Desktop_Hero.jpg"
+            <img class="citrusNulo__desktop-version" src="revised-img/Nulo_Desktop_Hero.jpg"
               alt="A dog running with their pet parent. Pack shots of Nulo dog and cat food. A woman in her living room with her cat." />
             <!-- Background Image Mobile -->
-            <img class="citrusNulo__mobile-version"
-              src="img/revised-img/Nulo_Mobile_Hero.jpg"
+            <img class="citrusNulo__mobile-version" src="revised-img/Nulo_Mobile_Hero.jpg"
               alt="A dog running with their pet parent. A woman in her living room with her cat." />
           </div>
           <div class="citrusNulo__carousel_copy">
@@ -1216,12 +1216,12 @@
               <img class="citrusNulo__logo_common citrusNulo__mobile-version"
                 src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/Nulo_Logo_Light" alt="Nulo logo." />
             </div>
-  
+
             <div class="citrusNulo__item_details">
               <h1>NUTRITION MEETS <br class="citrusNulo__mobile-version"> LOVE <br class="citrusNulo__desktop-version">
                 IN EVERY BITE</h1>
             </div>
-  
+
             <div class="citrusNulo__heroCTa_container">
               <a href="https://www.petco.com/shop/en/petcostore/brand/nulo/dog"
                 manual_cm_sp="sponsoredbrandpage:nulo:heropov:1:nutritionmeetsloveineverybite:shopdog"
@@ -1240,7 +1240,7 @@
       </div>
     </section>
     <!-- End Hero Single Slide -->
-  
+
     <!-- Product Carousel Tab section -->
     <section class="citrusNulo__tab-area">
       <div class="citrusNulo__tab-container">
@@ -1274,7 +1274,7 @@
             </div>
           </div>
           <!-- End tab button -->
-  
+
           <!-- product content -->
           <div class="citrusNulo-section__tab-content">
             <!-- DRY DOG FOOD product row 01 -->
@@ -1288,8 +1288,7 @@
                         manual_cm_sp="sponsoredbrandpage:nulo:drydogfood:1:nulomedalseriesgrainfreelimitedingredientdietsalmonpuppyadultdrydogfood22lbs:shopnow"
                         onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
-                          <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-dry-dog01"
-                            alt="" />
+                          <img src="revised-img/citrus-nulo-dry-dog01.jpg" alt="" />
                         </div>
                         <div class="citrusNulo-tab-cardBody">
                           <p>
@@ -1304,7 +1303,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 02-->
                   <div class="citrusNulo__Product nulo-DryDogFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -1312,8 +1311,7 @@
                         manual_cm_sp="sponsoredbrandpage:nulo:drydogfood:2:nulomedalseriesgrainfreesalmonsweetpotatoadultdrydogfood24lbs:shopnow"
                         onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
-                          <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-dry-dog02"
-                            alt="" />
+                          <img src="revised-img/citrus-nulo-dry-dog02.jpg" alt="" />
                         </div>
                         <div class="citrusNulo-tab-cardBody">
                           <p>
@@ -1327,7 +1325,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 03-->
                   <div class="citrusNulo__Product nulo-DryDogFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -1351,7 +1349,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 04-->
                   <div class="citrusNulo__Product nulo-DryDogFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -1359,8 +1357,7 @@
                         manual_cm_sp="sponsoredbrandpage:nulo:drydogfood:4:nulomedalseriesancientgrainsbeefbarleylambadultdrydogfood24lbs:shopnow"
                         onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
-                          <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-dry-dog04"
-                            alt="" />
+                          <img src="revised-img/citrus-nulo-dry-dog04.jpg" alt="" />
                         </div>
                         <div class="citrusNulo-tab-cardBody">
                           <p>
@@ -1374,7 +1371,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 05-->
                   <div class="citrusNulo__Product nulo-DryDogFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -1398,7 +1395,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 06-->
                   <div class="citrusNulo__Product nulo-DryDogFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -1421,7 +1418,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 07-->
                   <div class="citrusNulo__Product nulo-DryDogFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -1444,7 +1441,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 08-->
                   <div class="citrusNulo__Product nulo-DryDogFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -1467,7 +1464,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 09-->
                   <div class="citrusNulo__Product nulo-DryDogFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -1490,7 +1487,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 10-->
                   <div class="citrusNulo__Product nulo-DryDogFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -1517,7 +1514,7 @@
               </div>
             </div>
             <!-- End DRY DOG FOOD product row 01 -->
-  
+
             <!-- WET DOG FOOD product row 02 -->
             <div id="nulo-WetDogFood-product" class="splide citrusNulo__Products">
               <div class="splide__track">
@@ -1544,7 +1541,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 02-->
                   <div class="citrusNulo__Product nulo-WetDogFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -1567,7 +1564,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 03-->
                   <div class="citrusNulo__Product nulo-WetDogFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -1590,7 +1587,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 04-->
                   <div class="citrusNulo__Product nulo-WetDogFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -1613,7 +1610,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 05-->
                   <div class="citrusNulo__Product nulo-WetDogFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -1636,7 +1633,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 06-->
                   <div class="citrusNulo__Product nulo-WetDogFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -1751,7 +1748,7 @@
               </div>
             </div>
             <!-- End WET DOG FOOD product row 02 -->
-  
+
             <!-- DOG FOOD TOPPERS product row 03 -->
             <div id="nulo-DogFoodToppers-product" class="splide citrusNulo__Products">
               <div class="splide__track">
@@ -1779,7 +1776,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 02-->
                   <div class="citrusNulo__Product nulo-DogFoodToppers-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -1803,7 +1800,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 03-->
                   <div class="citrusNulo__Product nulo-DogFoodToppers-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -1827,7 +1824,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 04-->
                   <div class="citrusNulo__Product nulo-DogFoodToppers-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -1851,7 +1848,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 05-->
                   <div class="citrusNulo__Product nulo-DogFoodToppers-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -1875,7 +1872,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 06-->
                   <div class="citrusNulo__Product nulo-DogFoodToppers-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -1903,7 +1900,7 @@
               </div>
             </div>
             <!-- End DOG FOOD TOPPERS product row 03 -->
-  
+
             <!-- DRY CAT FOOD product row 04 -->
             <div id="nulo-DryCatFood-product" class="splide citrusNulo__Products">
               <div class="splide__track">
@@ -1915,7 +1912,8 @@
                         manual_cm_sp="sponsoredbrandpage:nulo:drycatfood:1:nulomedalseriesgrainfreechickendrycatkittenfood11lbs:shopnow"
                         onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
-                          <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-dry-cat-food01"
+                          <img
+                            src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-dry-cat-food01"
                             alt="" />
                         </div>
                         <div class="citrusNulo-tab-cardBody">
@@ -1930,7 +1928,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 02-->
                   <div class="citrusNulo__Product nulo-DryCatFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -1938,7 +1936,8 @@
                         manual_cm_sp="sponsoredbrandpage:nulo:drycatfood:2:nulomedalseriesgrainfreeturkeycoddrycatkittenfood12lbs:shopnow"
                         onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
-                          <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-dry-cat-food02"
+                          <img
+                            src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-dry-cat-food02"
                             alt="" />
                         </div>
                         <div class="citrusNulo-tab-cardBody">
@@ -1953,7 +1952,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 03-->
                   <div class="citrusNulo__Product nulo-DryCatFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -1961,7 +1960,8 @@
                         manual_cm_sp="sponsoredbrandpage:nulo:drycatfood:3:nulomedalseriesgrainfreeduckcodindoordrycatfood12lbs:shopnow"
                         onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
-                          <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-dry-cat-food03"
+                          <img
+                            src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-dry-cat-food03"
                             alt="" />
                         </div>
                         <div class="citrusNulo-tab-cardBody">
@@ -1976,7 +1976,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 04-->
                   <div class="citrusNulo__Product nulo-DryCatFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -1984,7 +1984,8 @@
                         manual_cm_sp="sponsoredbrandpage:nulo:drycatfood:4:nulomedalseriesgrainfreecodduckdrycatkittenfood12lbs:shopnow"
                         onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
-                          <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-dry-cat-food04"
+                          <img
+                            src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-dry-cat-food04"
                             alt="" />
                         </div>
                         <div class="citrusNulo-tab-cardBody">
@@ -1999,7 +2000,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 05-->
                   <div class="citrusNulo__Product nulo-DryCatFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2007,7 +2008,8 @@
                         manual_cm_sp="sponsoredbrandpage:nulo:drycatfood:5:nulomedalseriesgrainfreeturkeychickenindoordrycatfood12lbs:shopnow"
                         onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
-                          <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-dry-cat-food05"
+                          <img
+                            src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-dry-cat-food05"
                             alt="" />
                         </div>
                         <div class="citrusNulo-tab-cardBody">
@@ -2022,7 +2024,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 06-->
                   <div class="citrusNulo__Product nulo-DryCatFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2030,7 +2032,8 @@
                         manual_cm_sp="sponsoredbrandpage:nulo:drycatfood:6:nulomedalseriesgrainfreecoddrycatkittenfood11lbs:shopnow"
                         onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
-                          <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-dry-cat-food06"
+                          <img
+                            src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-dry-cat-food06"
                             alt="" />
                         </div>
                         <div class="citrusNulo-tab-cardBody">
@@ -2045,7 +2048,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 07-->
                   <div class="citrusNulo__Product nulo-DryCatFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2053,7 +2056,8 @@
                         manual_cm_sp="sponsoredbrandpage:nulo:drycatfood:7:nulomedalseriesdigestivehealthchickenwhitefishadultdrycatfood10lbs:shopnow"
                         onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
-                          <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-dry-cat-food07"
+                          <img
+                            src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-dry-cat-food07"
                             alt="" />
                         </div>
                         <div class="citrusNulo-tab-cardBody">
@@ -2068,7 +2072,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 08-->
                   <div class="citrusNulo__Product nulo-DryCatFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2076,7 +2080,8 @@
                         manual_cm_sp="sponsoredbrandpage:nulo:drycatfood:8:nulomedalseriesgrainfreeturkeycoddrycatkittenfood5lbs:shopnow"
                         onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
-                          <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-dry-cat-food08"
+                          <img
+                            src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-dry-cat-food08"
                             alt="" />
                         </div>
                         <div class="citrusNulo-tab-cardBody">
@@ -2091,7 +2096,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 09-->
                   <div class="citrusNulo__Product nulo-DryCatFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2099,7 +2104,8 @@
                         manual_cm_sp="sponsoredbrandpage:nulo:drycatfood:9:nulomedalseriesgrainfreeturkeychickenindoordrycatfood2lbs:shopnow"
                         onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
-                          <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-dry-cat-food09"
+                          <img
+                            src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-dry-cat-food09"
                             alt="" />
                         </div>
                         <div class="citrusNulo-tab-cardBody">
@@ -2114,7 +2120,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 10-->
                   <div class="citrusNulo__Product nulo-DryCatFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2122,7 +2128,8 @@
                         manual_cm_sp="sponsoredbrandpage:nulo:drycatfood:10:nulomedalseriesgrainfreechickencodadulthairballmanagementdrycatfood2lbs:shopnow"
                         onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
-                          <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-dry-cat-food10"
+                          <img
+                            src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-dry-cat-food10"
                             alt="" />
                         </div>
                         <div class="citrusNulo-tab-cardBody">
@@ -2141,7 +2148,7 @@
               </div>
             </div>
             <!-- DRY CAT FOOD product row 04 -->
-  
+
             <!-- WET CAT FOOD product row 05 -->
             <div id="nulo-WetCatFood-product" class="splide citrusNulo__Products">
               <div class="splide__track">
@@ -2153,7 +2160,8 @@
                         manual_cm_sp="sponsoredbrandpage:nulo:wetcatfood:1:nulomedalseriesgrainfreesalmonmackerelwetcatfood125oz:shopnow"
                         onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
-                          <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-wet-cat-food01"
+                          <img
+                            src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-wet-cat-food01"
                             alt="" />
                         </div>
                         <div class="citrusNulo-tab-cardBody">
@@ -2168,7 +2176,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 02-->
                   <div class="citrusNulo__Product nulo-WetCatFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2176,7 +2184,8 @@
                         manual_cm_sp="sponsoredbrandpage:nulo:wetcatfood:2:nulomedalseriesgrainfreemincedbeefmackerelwetcatfood3oz:shopnow"
                         onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
-                          <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-wet-cat-food02"
+                          <img
+                            src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-wet-cat-food02"
                             alt="" />
                         </div>
                         <div class="citrusNulo-tab-cardBody">
@@ -2191,7 +2200,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 03-->
                   <div class="citrusNulo__Product nulo-WetCatFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2199,7 +2208,8 @@
                         manual_cm_sp="sponsoredbrandpage:nulo:wetcatfood:3:nulomedalserieschickenchickenliverducksilkymoussewetkittenfood175oz:shopnow"
                         onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
-                          <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-wet-cat-food03"
+                          <img
+                            src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-wet-cat-food03"
                             alt="" />
                         </div>
                         <div class="citrusNulo-tab-cardBody">
@@ -2214,7 +2224,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 04-->
                   <div class="citrusNulo__Product nulo-WetCatFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2222,7 +2232,8 @@
                         manual_cm_sp="sponsoredbrandpage:nulo:wetcatfood:4:nulomedalseriestunashrimpsilkymoussewetkittenfood28oz:shopnow"
                         onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
-                          <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-wet-cat-food04"
+                          <img
+                            src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-wet-cat-food04"
                             alt="" />
                         </div>
                         <div class="citrusNulo-tab-cardBody">
@@ -2237,7 +2248,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 05-->
                   <div class="citrusNulo__Product nulo-WetCatFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2245,7 +2256,8 @@
                         manual_cm_sp="sponsoredbrandpage:nulo:wetcatfood:5:nulomedalseriessignaturestewtunacrabwetcatfood28oz:shopnow"
                         onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
-                          <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-wet-cat-food05"
+                          <img
+                            src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-wet-cat-food05"
                             alt="" />
                         </div>
                         <div class="citrusNulo-tab-cardBody">
@@ -2260,7 +2272,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 06-->
                   <div class="citrusNulo__Product nulo-WetCatFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2268,7 +2280,8 @@
                         manual_cm_sp="sponsoredbrandpage:nulo:wetcatfood:6:nulomedalserieschickensalmonsilkymoussewetcatfood28oz:shopnow"
                         onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
-                          <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-wet-cat-food06"
+                          <img
+                            src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-wet-cat-food06"
                             alt="" />
                         </div>
                         <div class="citrusNulo-tab-cardBody">
@@ -2283,7 +2296,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 07-->
                   <div class="citrusNulo__Product nulo-WetCatFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2291,7 +2304,8 @@
                         manual_cm_sp="sponsoredbrandpage:nulo:wetcatfood:7:nulomedalseriessignaturestewchickenchickenliverwetcatfood28oz:shopnow"
                         onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
-                          <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-wet-cat-food07"
+                          <img
+                            src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-wet-cat-food07"
                             alt="" />
                         </div>
                         <div class="citrusNulo-tab-cardBody">
@@ -2306,7 +2320,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 08-->
                   <div class="citrusNulo__Product nulo-WetCatFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2314,7 +2328,8 @@
                         manual_cm_sp="sponsoredbrandpage:nulo:wetcatfood:8:nulomedalserieschickensalmonwetcatfood28oz:shopnow"
                         onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
-                          <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-wet-cat-food08"
+                          <img
+                            src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-wet-cat-food08"
                             alt="" />
                         </div>
                         <div class="citrusNulo-tab-cardBody">
@@ -2329,7 +2344,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 09-->
                   <div class="citrusNulo__Product nulo-WetCatFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2337,7 +2352,8 @@
                         manual_cm_sp="sponsoredbrandpage:nulo:wetcatfood:9:nulomedalseriessignaturestewmackerelshimpmusselswetcatfood28oz:shopnow"
                         onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
-                          <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-wet-cat-food09"
+                          <img
+                            src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-wet-cat-food09"
                             alt="" />
                         </div>
                         <div class="citrusNulo-tab-cardBody">
@@ -2352,7 +2368,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 10-->
                   <div class="citrusNulo__Product nulo-WetCatFood-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2360,7 +2376,8 @@
                         manual_cm_sp="sponsoredbrandpage:nulo:wetcatfood:10:nulomedalseriesbeefsardinesilkymoussewetcatfood28oz:shopnow"
                         onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
-                          <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-wet-cat-food10"
+                          <img
+                            src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus-nulo-wet-cat-food10"
                             alt="" />
                         </div>
                         <div class="citrusNulo-tab-cardBody">
@@ -2379,7 +2396,7 @@
               </div>
             </div>
             <!-- End WET CAT FOOD product row 05 -->
-  
+
             <!-- CAT FOOD TOPPERS product row 06 -->
             <div id="nulo-CatFoodToppers-product" class="splide citrusNulo__Products">
               <div class="splide__track">
@@ -2407,7 +2424,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 02-->
                   <div class="citrusNulo__Product nulo-CatFoodToppers-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2431,7 +2448,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 03-->
                   <div class="citrusNulo__Product nulo-CatFoodToppers-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2455,7 +2472,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 04-->
                   <div class="citrusNulo__Product nulo-CatFoodToppers-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2479,7 +2496,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 05-->
                   <div class="citrusNulo__Product nulo-CatFoodToppers-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2503,7 +2520,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 06 -->
                   <div class="citrusNulo__Product nulo-CatFoodToppers-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2527,7 +2544,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 07 -->
                   <div class="citrusNulo__Product nulo-CatFoodToppers-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2551,7 +2568,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 08 -->
                   <div class="citrusNulo__Product nulo-CatFoodToppers-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2575,7 +2592,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 09 -->
                   <div class="citrusNulo__Product nulo-CatFoodToppers-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2599,7 +2616,7 @@
                     </div>
                   </div>
                   <!-- tab item -->
-  
+
                   <!-- tab item 10 -->
                   <div class="citrusNulo__Product nulo-CatFoodToppers-product splide__slide">
                     <div class="citrusNulo-tab-card">
@@ -2641,7 +2658,7 @@
       </div>
     </section>
     <!-- End Product Carousel Tab section -->
-  
+
     <!-- Food Item Section start -->
     <section class="citrusNulo__sectionGap" id="nulo_different">
       <div id="citrusNulo__RawFood">
@@ -2662,7 +2679,7 @@
                   </p>
                 </div>
               </div>
-  
+
               <!-- food 02 -->
               <div class="citrusNulo__card">
                 <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/Nulo_high_in_animal-based_protein"
@@ -2674,7 +2691,7 @@
                   </p>
                 </div>
               </div>
-  
+
               <!-- food 03 -->
               <div class="citrusNulo__card">
                 <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/Nulo_low_in_carbohydrates"
@@ -2686,7 +2703,7 @@
                   </p>
                 </div>
               </div>
-  
+
               <!-- food 04 -->
               <div class="citrusNulo__card">
                 <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/Nulo_BC30TM_probiotic"
@@ -2711,7 +2728,7 @@
       </div>
     </section>
     <!-- End Food Item Section -->
-  
+
     <!-- Dog Cat boring to bon  carousel section -->
     <section class="citrusNulo__tab-area">
       <div class="citrusNuloDogCat__tab-container">
@@ -2791,7 +2808,8 @@
                   <div class="citrusNuloDogCat__Product citrusNulo-Dog-Product splide__slide">
                     <div class="citrusNulo-tab-card">
                       <a href="https://www.petco.com/shop/en/petcostore/brand/nulo/dog/dog-food/dog-food-broth-and-toppers"
-                        manual_cm_sp="sponsoredbrandpage:nulo:dog:3:meatypouches:shopnow" onclick="clickTrackLink(this);">
+                        manual_cm_sp="sponsoredbrandpage:nulo:dog:3:meatypouches:shopnow"
+                        onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
                           <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/Nulo_Meaty-Pouches_Dog"
                             alt="" />
@@ -2835,7 +2853,7 @@
               </div>
             </div>
             <!-- End Dog FOOD product -->
-  
+
             <!-- CAT FOOD product -->
             <div id="citrusNulo-Cat-Product" class="splide citrusNuloDogCat__Products">
               <div class="splide__track">
@@ -2888,7 +2906,8 @@
                   <div class="citrusNuloDogCat__Product citrusNulo-Cat-Product splide__slide">
                     <div class="citrusNulo-tab-card">
                       <a href="https://www.petco.com/shop/en/petcostore/brand/nulo/cat/cat-food/cat-food-toppings"
-                        manual_cm_sp="sponsoredbrandpage:nulo:cat:3:meatypouches:shopnow" onclick="clickTrackLink(this);">
+                        manual_cm_sp="sponsoredbrandpage:nulo:cat:3:meatypouches:shopnow"
+                        onclick="clickTrackLink(this);">
                         <div class="citrusNulo-tab-cardImg">
                           <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/Nulo_Meaty-Pouches_Cat"
                             alt="" />
@@ -2939,7 +2958,7 @@
       </div>
     </section>
     <!-- End Dog Cat boring to bon carousel section -->
-  
+
     <!-- Lifestyle Image Section -->
     <section class="citrusNulo__lifestyle_image_section ">
       <div class="citrusNulo__lifestyle_image_container">
@@ -2949,8 +2968,7 @@
               <div class="citrusNulo__lifestyle_container_image">
                 <div class="citrusNulo-yt-video">
                   <button onclick="citrusNulo_footer_video()" data-id="myCbTeh-cXw">
-                    <img id="citrusFooterVideo"
-                      src="img/revised-img/Nulo_banner_video-thumbnail.jpg" alt="">
+                    <img id="citrusFooterVideo" src="revised-img/Nulo_banner_video-thumbnail.jpg" alt="">
                   </button>
                   <div class="show-video"></div>
                 </div>
@@ -2967,20 +2985,20 @@
             <p id="citusHonest__lifestyle_imageDesc">
               Functional, delicious and nutritious ingredients carefully selected to help unleash your pet’s potential.
             </p>
-  
+
             <a href="https://www.petco.com/shop/en/petcostore/brand/nulo"
               manual_cm_sp="sponsoredbrandpage:nulo:contentbanner:1:enrichthewayyoufeedyourpet:shopnow"
               onclick="clickTrackLink(this);">
               <div class="citrusNulo__commonCTA">Shop Now</div>
             </a>
           </div>
-  
+
         </div>
       </div>
     </section>
     <!-- End Lifestyle Image Section -->
   </main>
-  
+
   <!-- JS Dependency Start-->
   <!-- Splide JS Library -->
   <script>
@@ -4196,7 +4214,7 @@
                       for (
                         var t = d();
                         t === v(n, !0) && En(n, 0, o.length - 1, !e.rewind);
-  
+
                       )
                         n < x ? --n : ++n;
                     return n;
@@ -5214,9 +5232,9 @@
           : ((n = "undefined" != typeof globalThis ? globalThis : n || self).Splide =
             t());
     //# sourceMappingURL=splide.min.js.map
-  
+
   </script>
-  
+
   <script>
     // iframe thumbnail image functionality
     function citrusNulo_footer_video() {
@@ -5274,11 +5292,11 @@
             perPage: 6,
           },
         },
-  
+
       };
       new Splide(splideElement, splideDefaultOptions).mount();
     }
-  
+
     /* ************************************************************************************** */
     //for tab sweater & loader added
     document.addEventListener("DOMContentLoaded", function () {
@@ -5305,7 +5323,7 @@
         }
       }
     }
-  
+
     function RemoveClass(element, name) {
       var i, arr1, arr2;
       arr1 = element.className.split(" ");
@@ -5317,7 +5335,7 @@
       }
       element.className = arr1.join(" ");
     }
-  
+
     // Add active class to the current button (highlight it)
     document.addEventListener("DOMContentLoaded", function () {
       // for dog active class filter
@@ -5339,7 +5357,7 @@
     }
     //for Dog best seller tab switcher
   </script>
-  
+
   <script>
     // initialize product scroller
     advanceArrowsDogCat("citrusNulo-Dog-Product");
@@ -5384,7 +5402,7 @@
       };
       new Splide(splideElement, splideDefaultOptions).mount();
     }
-  
+
     /* ************************************************************************************** */
     //for tab sweater & loader added
     document.addEventListener("DOMContentLoaded", function () {
@@ -5411,7 +5429,7 @@
         }
       }
     }
-  
+
     function RemoveClass(element, name) {
       var i, arr1, arr2;
       arr1 = element.className.split(" ");
@@ -5423,7 +5441,7 @@
       }
       element.className = arr1.join(" ");
     }
-  
+
     // Add active class to the current button (highlight it)
     document.addEventListener("DOMContentLoaded", function () {
       // for dog active class filter
@@ -5448,4 +5466,5 @@
   </script>
   <!-- End JS Dependency -->
 </body>
+
 </html>
